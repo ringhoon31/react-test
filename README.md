@@ -1,1 +1,1 @@
-# react-test
+React 기초 실습 예제 입니다!
