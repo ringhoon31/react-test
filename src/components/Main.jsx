@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Main = () => {
+const Main = ({content='컨텐츠 입니다.', bgColor}) => {
   return (
-    <main>MAIN SECTION</main>
-    
+    <div style={{backgroundColor:bgColor}}>
+        {content},{bgColor}
+    </div>
   )
 }
 
