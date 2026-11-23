@@ -1,24 +1,17 @@
 
 import './App.css'
+import Focusinput from './components/Focusinput'
 import Counter from './components/Counter'
-import Exam1 from './components/Exam1'
-import Exam2 from './components/Exam2'
-import Exam3 from './components/Exam3'
+import ClickLogger from './components/ClickLogger'
+
 
 function App() {
-  const user = {
-    name: 'Alice',
-    age: 21
-  }
-
 
   return (
     <main>
-      <Exam1 {...user} />
-      <Exam2 />
-      <Exam3 />
-      <h1>aa</h1>
       <Counter />
+      <Focusinput />
+      <ClickLogger />
     </main>
   )
 }
