@@ -1,17 +1,15 @@
 
 import './App.css'
-import Focusinput from './components/Focusinput'
-import Counter from './components/Counter'
-import ClickLogger from './components/ClickLogger'
+import Parent from './components/Parent'
+import Timer from './components/Timer'
 
 
 function App() {
 
   return (
     <main>
-      <Counter />
-      <Focusinput />
-      <ClickLogger />
+      <Timer />
+      <Parent />
     </main>
   )
 }
